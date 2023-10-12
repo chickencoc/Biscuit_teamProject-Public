@@ -42,7 +42,7 @@
 ## :wrench: 프로젝트 구성
 
 ### 아키텍처
-![Biscuit_Architecture](https://github.com/chickencoc/Biscuit_teamProject-Public/assets/74812739/bc8d8815-0d38-4178-9c2a-00b29827e8c2)
+![Biscuit_Architecture](https://github.com/chickencoc/Biscuit_teamProject-Public/assets/74812739/f4927192-9da9-4ba5-a9af-714eb8cedcf8)
 
 ### ERD
 ![Biscuit_DB_ERD](https://github.com/chickencoc/Biscuit_teamProject-Public/assets/74812739/cbc6065f-bc8c-4b45-a242-cac5fe356648)
