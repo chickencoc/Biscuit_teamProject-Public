@@ -42,7 +42,7 @@
 ## :wrench: 프로젝트 구성
 
 ### 아키텍처
-![Biscuit_Architecture](https://github.com/chickencoc/Biscuit_teamProject-Public/assets/74812739/f4927192-9da9-4ba5-a9af-714eb8cedcf8)
+![Biscuit_Architecture](https://github.com/chickencoc/Biscuit_teamProject-Public/assets/74812739/c7f516a0-9e6c-4f9a-80a5-9513bcd0c45b)
 
 ### ERD
 ![Biscuit_DB_ERD](https://github.com/chickencoc/Biscuit_teamProject-Public/assets/74812739/cbc6065f-bc8c-4b45-a242-cac5fe356648)
@@ -50,29 +50,29 @@
 ## :sparkles: 주요기능
 
 ### books
-   Python crawling 기능을 이용해 책 정보 저장 
+   Python 스크랩핑을 이용해 책 정보 저장   
    bookclip 기능을 이용해 mypage 에서 저장한 책 정보 확인 및 삭제
 ### booklog
-   CRUD 구현
-   서로의 booklog 구독 및 취소 기능 
+   CRUD 구현   
+   서로의 booklog 구독 및 취소 기능    
    글과 booklog search 기능 
 ### bookclass
-   bookclass 참여 및 참여취소 기능 
-   bookclass 개설 기능 
+   bookclass 참여 및 참여취소 기능   
+   bookclass 개설 기능   
    admin : 개설한 bookclass 관리기능 
 ### Us, Earth
-   중고도서 구매 
-   중고도서 신청 
+   중고도서 구매   
+   중고도서 신청   
    admin : 신청한 중고도서 승인 
 ### goods
-   goods 구매 
+   goods 구매   
    admin : goods 등록 및 수정 및 상태 변경 
 ### event
-   참여 및 취소 
+   참여 및 취소   
    admin : event 등록 및 참여자 리스트 엑셀 파일다운로드 
 ### 회원
-   회원가입, 로그인, 아이디, 비밀번호 찾기, 정보수정, 탈퇴 
-   mypage bookclip, bookclass 현황, 주문내역 확인 
+   회원가입, 로그인, 아이디, 비밀번호 찾기, 정보수정, 탈퇴   
+   mypage bookclip, bookclass 현황, 주문내역 확인   
    admin : user 관리(탈퇴 및 복구, 권한) 
 
 
