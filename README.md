@@ -100,13 +100,13 @@
 * Admin
   |Function|Method|End Point|
   |:---|:---|:---|
-  |회원 목록 가져오기|POST|/api/books/list|
-  |회원 권한 수정|POST|/api/books/info|
-  |회원 탈퇴 처리 및 복구|POST|/api/books/clip|
-  |북클래스 삭제|GET|/api/books/delclip|
-  |북클래스 목록 보기|GET|/api/books/delclip|
-  |북클래스 상태 변경|GET|/api/books/delclip|
-  |모든 주문 내역 보기|PUT|/api/books/delclip|
+  |회원 목록 가져오기|GET|/api/admin/list/{type}|
+  |회원 권한 수정|GET|/api/admin/authority/{userNo}|
+  |회원 탈퇴 처리 및 복구|GET|/api/admin/out/{userNo}|
+  |북클래스 삭제|GET|/api/bookclass/delete/{no}|
+  |북클래스 목록 보기|GET|/api/bookclass/all/{sortNum}|
+  |북클래스 상태 변경|GET|/api/bookclass/status/list={numList}&status={status}|
+  |모든 주문 내역 보기|GET|/api/orders/all|
 
 
 ## 서비스 기능
