@@ -68,10 +68,10 @@
 * Book
   |Function|Method|End Point|
   |:---|:---|:---|
-  |도서 검색|POST|/api/books/list|
-  |도서 상세|POST|/api/books/info|
+  |도서 검색|GET|/api/books/list|
+  |도서 상세|GET|/api/books/info|
   |도서 찜 등록|POST|/api/books/clip|
-  |도서 찜 삭제|PUT|/api/books/delclip|
+  |도서 찜 삭제|DELETE|/api/books/delclip|
 * BookClass
   |Function|Method|End Point|
   |:---|:---|:---|
@@ -82,30 +82,30 @@
   |북클래스 수정|PUT|/api/bookclass/{id}/update|
   |북클래스 검색|GET|/api/bookclass/search/q={keyword}&u={userNo}|
   |북클래스 참여|POST|/api/bookclass/party/in|
-  |북클래스 참여 취소|POST|/api/bookclass/party/out|
+  |북클래스 참여 취소|DELETE|/api/bookclass/party/out|
 * Order
   |Function|Method|End Point|
   |:---|:---|:---|
   |상품 주문|POST|/api/orders/add|
-  |주문 취소|GET|/api/orders/cancel/{no}|
-  |주문 상태 변경|POST|/api/orders/change|
+  |주문 취소|DELETE|/api/orders/cancel/{no}|
+  |주문 상태 변경|PUT|/api/orders/change|
 * User
   |Function|Method|End Point|
   |:---|:---|:---|
-  |도서 찜 목록 보기|POST|/api/member/clip|
-  |북클래스 개설 목록 조회|POST|/api/member/class/open|
-  |북클래스 참여 목록 조회|POST|/api/member/class/party|
+  |도서 찜 목록 보기|GET|/api/member/clip|
+  |북클래스 개설 목록 조회|GET|/api/member/class/open|
+  |북클래스 참여 목록 조회|GET|/api/member/class/party|
   |사용자의 주문 내역 보기|GET|/api/orders/list/{no}|
-  |사용자의 상태별 주문 내역 보기|POST|/api/orders/sort|
+  |사용자의 상태별 주문 내역 보기|GET|/api/orders/sort|
 * Admin
   |Function|Method|End Point|
   |:---|:---|:---|
   |회원 목록 가져오기|GET|/api/admin/list/{type}|
-  |회원 권한 수정|GET|/api/admin/authority/{userNo}|
-  |회원 탈퇴 처리 및 복구|GET|/api/admin/out/{userNo}|
-  |북클래스 삭제|GET|/api/bookclass/delete/{no}|
+  |회원 권한 수정|PUT|/api/admin/authority/{userNo}|
+  |회원 탈퇴 처리 및 복구|PUT|/api/admin/out/{userNo}|
+  |북클래스 삭제|DELETE|/api/bookclass/delete/{no}|
   |북클래스 목록 보기|GET|/api/bookclass/all/{sortNum}|
-  |북클래스 상태 변경|GET|/api/bookclass/status/list={numList}&status={status}|
+  |북클래스 상태 변경|PUT|/api/bookclass/status/list={numList}&status={status}|
   |모든 주문 내역 보기|GET|/api/orders/all|
 
 
