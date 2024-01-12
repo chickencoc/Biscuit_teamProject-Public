@@ -1,6 +1,5 @@
-# Biscuit - 도서 블로그 네트워크 웹 서비스
 ![Biscuit_Architecture](https://raw.githubusercontent.com/chickencoc/Biscuit_teamProject-Public/develop/process/file/Biscuit_Thumbnail.png)
-
+# Biscuit - 도서 블로그 네트워크 웹 서비스
 
 ## 목차
 * [프로젝트 개요](https://github.com/chickencoc/Biscuit_teamProject-Public#프로젝트-개요)
