@@ -23,7 +23,7 @@
   * 2023.08.01 ~ 2023.08.31
 
 * 프로젝트 시연 정보
-  * [배포 사이트 Link](http://ec2-3-39-189-163.ap-northeast-2.compute.amazonaws.com/biscuit-project)
+  * [배포 사이트 Link](http://biscuit-project.duckdns.org/biscuit-project)
   * [데모 비디오 Link](https://youtu.be/MqECvmNpCtI)
   * [프로젝트 PPT Link](https://github.com/anjxxyi/Biscuit_teamProject-Public/blob/develop/process/file/Biscuit_final-project_PPT.pdf)
 
